@@ -1,0 +1,25 @@
+{
+  "1": {
+    "title": "Math 101",
+    "overview": "This course covers algebra, calculus and geometry basics.",
+    "assignments": [
+      { "title": "Do algebra", "due": "2025-07-30" },
+      { "title": "Solve geometry", "due": "2025-08-05" }
+    ],
+    "grades": [
+      { "item": "Basic Math", "score": "90%" },
+      { "item": "Calculus Questions", "score": "85%" }
+    ]
+  },
+  "2": {
+    "title": "Physics 201",
+    "overview": "Covers motion, thermodynamics and basic quantum mechanics.",
+    "assignments": [
+      { "title": "Lab Report", "due": "2025-07-28" }
+    ],
+    "grades": [
+      { "item": "Lab Report", "score": "92%" }
+    ]
+  }
+}
+

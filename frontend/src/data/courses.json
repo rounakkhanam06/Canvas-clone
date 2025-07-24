@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Math 101",
+    "instructor": "Prof. Raj Lodhi",
+    "progress": 70
+  },
+  {
+    "id": 2,
+    "title": "Physics 201",
+    "instructor": "Dr. Shivansh Singh",
+    "progress": 40
+  },
+  {
+    "id": 3,
+    "title": "Chemistry 301",
+    "instructor": "Prof. Saniya Dubey",
+    "progress": 90
+  },
+  {
+    "id": 4,
+    "title": "Biology 101",
+    "instructor": "Prof. Lovely Singh",
+    "progress": 50
+  },
+  {
+    "id": 5,
+    "title": "History 101",
+    "instructor": "Prof. Kavita Mehta",
+    "progress": 60
+  },
+  {
+    "id": 6,
+    "title": "English 201",
+    "instructor": "Dr. Arpita Tiwari",
+    "progress": 80
+  }
+]

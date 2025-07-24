@@ -1,0 +1,64 @@
+/* Make Calendar Full Width */
+.calendar-wrapper .react-calendar {
+  width: 100% !important;
+  max-width: 100%;
+  height: auto;
+  border: none;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+}
+
+.react-calendar__tile {
+  padding: 20px 0 !important;
+  font-size: 1rem;
+}
+
+.react-calendar__month-view__days {
+  grid-template-rows: repeat(6, 70px) !important;
+}
+
+/* Dot on dates */
+.react-calendar__tile .dot {
+  height: 6px;
+  width: 6px;
+  background: #3b82f6;
+  border-radius: 50%;
+  display: block;
+  margin: 2px auto 0;
+}
+
+/* ------------------ Responsive Adjustments ------------------ */
+@media (max-width: 768px) {
+  .calendar-wrapper .react-calendar {
+    font-size: 1rem;
+  }
+
+  .react-calendar__tile {
+    padding: 16px 0 !important;
+    font-size: 0.95rem;
+  }
+
+  .react-calendar__month-view__days {
+    grid-template-rows: repeat(6, 60px) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .calendar-wrapper .react-calendar {
+    font-size: 0.95rem;
+  }
+
+  .react-calendar__tile {
+    padding: 12px 0 !important;
+    font-size: 0.9rem;
+  }
+
+  .react-calendar__month-view__days {
+    grid-template-rows: repeat(6, 50px) !important;
+  }
+
+  .react-calendar__tile .dot {
+    height: 5px;
+    width: 5px;
+  }
+}
