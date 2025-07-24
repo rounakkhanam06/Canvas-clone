@@ -1,14 +1,39 @@
-# React + Vite
+# Canvas LMS Clone (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simplified Canvas Learning Management System (LMS) clone built using **React.js**.  
+It includes a **Dashboard**, **Course Detail Page**, **Assignments**, **Grades**, **Calendar**, and a **To-Do List**.  
+This project demonstrates reusable components, routing, and responsive UI similar to Canvas LMS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Dashboard**
+  - Displays courses dynamically from JSON data.
+  - Shows To-Do list and "Coming Up" tasks.
+  - Responsive sidebar navigation with icons.
 
-## Expanding the ESLint configuration
+- **Course Detail Page**
+  - Dynamic course loading using `React Router`.
+  - Tabs for **Overview**, **Assignments**, and **Grades**.
+  - Breadcrumb navigation for better UX.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Calendar Page**
+  - Monthly calendar view.
+  - Highlights dates with tasks.
+  - Responsive full-page layout.
 
+- **To-Do List**
+  - Lists upcoming tasks.
+  - Checkboxes for completion.
+  - "Start a New Course" & "View Grades" actions.
 
+- **Responsive Design**
+  - Mobile-friendly header and sidebar.
+  - Tabs and assignment list adapt to small screens.
+
+---
+
+## Tech Stack
+- **Frontend:** React.js, React Router, React Icons
+- **Styling:** CSS (custom responsive design)
+- **Data:** JSON (mock data for courses, tasks, and students)
